@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<accessrules>
+			<accessrule kind="accessible" pattern="javafx/embed/**"/>
+			<accessrule kind="accessible" pattern="javafx/**"/>
+			<accessrule kind="accessible" pattern="jdk/nashorn/api/**"/>
+			<accessrule kind="accessible" pattern="com/sun/webkit/dom/**"/>
+			<accessrule kind="accessible" pattern="netscape/javascript/**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JSON"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/RSyntaxTextArea"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/AutoComplete"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/tern.core"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/minimal-json"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/tern.server.nodejs"/>
+	<classpathentry kind="lib" path="lib/org.apache.commons.httpclient_3.1.0.v201012070820.jar"/>
+	<classpathentry kind="lib" path="lib/org.apache.commons.logging_1.1.1.v201101211721.jar"/>
+	<classpathentry kind="lib" path="lib/org.apache.commons.net_3.2.0.v201305141515.jar"/>
+	<classpathentry kind="lib" path="lib/jetty-server-9.3.2.v20150730.jar"/>
+	<classpathentry kind="lib" path="lib/jetty-util-9.3.2.v20150730.jar"/>
+	<classpathentry kind="lib" path="lib/jetty-http-9.3.2.v20150730.jar"/>
+	<classpathentry kind="lib" path="lib/jetty-servlet-9.3.2.v20150730.jar"/>
+	<classpathentry kind="lib" path="lib/jetty-io-9.3.2.v20150730.jar"/>
+	<classpathentry kind="lib" path="lib/servlet-api-3.1.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/RSTAUI"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

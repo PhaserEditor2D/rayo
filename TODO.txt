@@ -1,0 +1,60 @@
+- Evaluation check.
+
+- link to nodejs
+- link to download java manually (64 bits version)
+- usuarios conectados
+
+
+-- PREVIEW LINE ---------------
+- use Files.probeContentType to detect if a file is text plain.
+- project templates
+- Stack overflow account to report issues.
+- Disable debugging on release. 
+- Web server
+- The 'enter' key open a file.
+- Outline window has a wrong positioning.
+- The rename does not apply to methods defined via prototype.
+- A key to display all available actions (globals and local to the active editor).
+- Add links to the JSDoc.
+- A key to switch tabs.
+- Editor context menu.
+- The Easing constants are not working well, the InOut functions are not shown!
+- Add string completions.
+- Show menus to open file with system editor and open location.
+- When open a folder with lot of files, show a progress dialog or warn the user. 
+- In Settings option to select nodejs installation folder. 
+- Record macros. 
+- Find references.
+- Quick fix. 
+ 
+-- ANGELO contributions TODO ---
+just look all the issues I created in tern.java
+ 
+ 
+-- DONE --
+- copy paste a folder does not work!
+- Cut, Copy, Move files in the project explorer.  
+- About
+- Edit actions in main menu.
+- Format source code.
+- Save used time per open file.
+- In Settings move auto complete on letters to the editor status bar.
+- Add the reload action to the file menu and with the ctrl+f5 key.
+- To ignore a folder as in rayo we can add a file .no-rayo-folder
+- Plain text editor.
+- HTML editor.
+- CTRL+Z of recent open file delete the content.
+- problem with file newlines. when create a sprite, if we put "o" at the end of the comments it puts the "o" in a new line 
+- create templates who starts with "." does not ask for name, usually these are configuration templates.
+- when deleted .jshint the server is disposed
+- Go to definition of other file.
+- Math.E does not show a rayo-formatted jsdoc.
+- (not valid) Save the content of editors with no project-node attached.
+- In main menu close and save actions are not disabled when there is not any editor.
+- F2 does not work on main menu.
+- close file ctrl+w
+- Add easing strings completions.
+- Add the ES6 keywords to the completions.
+- completions: show all the versions of a method with optional parameters like game.add.tween().
+- In the complete list show both the type and the constructor.
+- When autocomplete "game.add.pa" it diesplayed the "load.pack" method. Maybe this is a an extra effort from tern.

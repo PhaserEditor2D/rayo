@@ -1,0 +1,14 @@
+- Do not exit on jshint:
+
+File: node_modules/jshint/src/cli.js
+
+Modification:
+
+In method loadConfig the lines 
+
+exports.exit(1); 
+
+was commented and added:
+
+return {};
+

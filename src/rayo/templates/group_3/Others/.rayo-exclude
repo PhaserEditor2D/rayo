@@ -1,0 +1,23 @@
+#
+# Use this file to exclude a set of files from the type inference engine.
+# It is very important to exclude big javascript files since it has an impact on the editor performance.
+#
+# These exclusion rules are applied for the files on the current directory and sub folders.
+#
+# Excluded files appear in the editor with a red color.
+#
+# To make these rules to take effect you should Reload (SHIFT-F5) the project.
+#
+
+# exclude files with Phaser API
+*phaser*.js
+
+# exclude all minified files
+# *.min.js
+
+# exclude a folder
+# path/to/folder
+
+# exclude all files on this file tree
+# *  
+
